@@ -1,5 +1,141 @@
-
-/* si l'ecran fait 500px de largeur max */
+/* si l'ecran fait 500px de largeur max
 @media screen and (max-width:500px) {
-    
+
 }
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+  min-height: 15vh;
+  padding: 50px;
+  background: linear-gradient(rgb(57, 57, 180), rgb(8, 98, 214));
+
+}
+
+header h1 {
+
+  font-family: 'Fredoka One';
+  font-size: 45px;
+  color: rgb(27, 19, 73);
+
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+
+header button {
+  font-weight: bold;
+  font-family: 'Fredoka One';
+  font-size: 20px;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1vw;
+
+}
+
+
+header nav ul li  {
+  list-style: none;
+
+}
+
+/* .main{
+  background-color:linear-gradient(rgb(34, 34, 216), rgb(35, 70, 117));
+  
+} */
+
+
+.titre {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  font-size: 60px;
+  text-align: right;
+  background-color: white;
+
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.presentation img {
+  display: flex;
+  max-width: 600px;
+  padding: 10 px;
+}
+
+.texte {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid;
+  max-width: 600px;
+  padding: 2%;
+  border-radius: 2%;
+  font-size: 20px;
+}
+
+#infos{
+  background-color: rgb(54, 73, 247);
+  border-radius: 0.8rem;
+}
+
+#infos p{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+#infos ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+  font-size: 45px;
+  
+}
+#contacts p {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.reseaux{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.reseaux button{
+  width: 5vw ;
+  height: 5vh;
+  
+}
+
